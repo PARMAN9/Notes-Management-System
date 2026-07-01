@@ -34,7 +34,7 @@ function displayNotes(notes) {
 
                 <p>${note.content}</p>
 
-                <small>📅 Created: ${date}</small>
+                <small> Created: ${date}</small>
 
                 <br>
 
