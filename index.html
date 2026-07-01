@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Notes Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1> Notes store</h1>
+        <p>Place where you can save your notes and can access anytime</p>
+
+        <input type="text" id="title" placeholder="Enter Note Title">
+
+        <textarea id="content" placeholder="Write your note..."></textarea>
+
+        <button onclick="addNote()">
+            Add Note
+        </button>
+
+        <h2>Search Notes</h2>
+        <input type="date" id="searchDate">
+
+
+        <button onclick="searchByDate()">
+            Search by Date
+        </button>
+
+        <button onclick="loadNotes()">
+            Show All Notes
+        </button>
+
+
+        <h2>Your Notes</h2>
+
+        <div id="notes"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
